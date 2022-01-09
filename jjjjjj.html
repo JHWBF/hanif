@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Fav Girl</title>
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
+    <style>
+        *   {
+    padding: 0;
+    margin: 0;
+}
+.pembukaan p    {
+    font-family: 'The Nautigal', cursive;
+    font-size: 30px;
+    font-weight: bold;
+    opacity: 70%;   
+}
+.int h1 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+.container  {
+    margin: auto;
+    margin-top: 160px;
+}
+.pembukaan  {
+    margin: auto;
+    text-align: center;
+    margin-bottom: 200px;
+    background-image: url(img/paper.jpg);
+    padding: 100px;
+    width: 700px;
+    border-radius: 50px 0px 50px 0px;
+    box-shadow: 0px 5px 35px rgb(0, 0, 0, 50%);
+}
+.int    {
+    margin: auto;
+    background-color: #0099ff;
+    color: white;
+    text-align: center;
+    margin-top: -10px;
+}
+.int .ciri {
+    margin-top: 450px;
+}
+.last   {
+    padding-bottom: 150px;
+}
+.introduce  {
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+}
+.introduce h1   {
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgb(53, 53, 53);
+}
+.introduce .ipeh  {
+    margin-top: 500px;
+    margin-bottom: -50px;
+}
+.search {
+    margin: auto;
+    text-align: center;
+    margin-bottom: 200px;
+}
+.jk {
+    margin: auto;
+    text-align: center;
+    background-color: #f3f4f5;
+    margin-top: -10px;
+    padding-top: 100px;
+}
+.jk h1   {
+    font-family: 'Josefin Sans', sans-serif;
+    opacity: 80%;
+}
+.jk .sweetie  {
+    font-family: 'Licorice', cursive;
+    color: red;
+    font-size: 15px;
+    font-weight: bolder;
+    margin-left: 200px;
+}
+.jk .here   {
+    margin-top: 500px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.jk .smile  {
+    margin-top: 500px;
+}
+
+.grid   {
+    display: grid;
+    grid-template-areas: "content1 content2 content3 content4 content5 content6 content7 content8"
+                         "content9 content10 content11 content12 content13 content14 content15 content16"
+                         "content17 content18 content19 content20 content21 content22 content23 content24";
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.icon   {
+    transform: rotate(-20deg);
+    position: relative;
+    bottom: 160px;
+    z-index: 0;
+}
+.icon img   {
+    width: 150px;
+}
+.content    {
+    height: 166px;
+    margin: 2px;
+    z-index: 1;
+    box-shadow: 0px 1px 30px rgb(53, 53, 53, 50%);
+}
+.content p  {
+    text-align: center;
+    margin: auto;
+    line-height: 166px;
+    font-family: 'Roboto Mono', monospace;
+}
+.black  {
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    opacity: 0%;
+    width: 100%;
+    height: 100%;
+    transition-timing-function: ease;
+    transition-duration: 0.5s;
+}
+.black:hover {
+    color: white;
+    opacity: 70%;
+}
+content1   {
+    grid-area: content1;
+    background-image: url(img/1.jpg);
+    background-size: cover;
+    border-radius: 20px;
+}
+content2   {
+    grid-area: content2;
+    background-image: url(img/2.jpg);
+    background-size: cover;
+    border-radius: 20px;    
+}
+content3   {
+    grid-area: content3;
+    background-image: url(img/3.jpg);
+    background-size: cover;
+    border-radius: 20px;    
+}
+content4   {
+    grid-area: content4;
+    background-image: url(img/4.jpg);
+    background-size: cover;
+    border-radius: 20px;    
+}
+content5   {
+    grid-area: content5;
+    background-image: url(img/5.jpg);
+    background-size: cover;
+    border-radius: 20px;    
+}
+content6   {
+    grid-area: content6;
+    background-image: url(img/6.jpg);
+    background-size: cover;
+    border-radius: 20px;    
+}
+content7   {
+    grid-area: content7;
+    background-image: url(img/7.jpg);
+    background-size: cover;
+    border-radius: 20px;    
+}
+content8   {
+    grid-area: content8;
+    background-image: url(img/8.jpg);
+    background-size: cover;
+    border-radius: 20px;    
+}
+content9   {
+    grid-area: content9;
+    background-image: url(img/9.jpg);
+    background-size: cover;
+    border-radius: 20px;    
+}
+content10   {
+    grid-area: content10;
+    background-image: url(img/10.jpg);
+    background-size: cover;
+    border-radius: 20px;    
+}
+content11  {
+    grid-area: content11;
+    background-image: url(img/11.jpg);
+    background-size: cover;
+    border-radius: 20px;    
+}
+content12   {
+    grid-area: content12;
+    background-image: url(img/12.jpg);
+    background-size: cover;
+    border-radius: 20px;    
+}
+content13   {
+    grid-area: content13;
+    background-image: url(img/13.jpg);
+    background-size: cover;
+    border-radius: 20px;    
+}
+content14   {
+    grid-area: content14;
+    background-image: url(img/14.jpg);
+    background-size: cover;
+    border-radius: 20px;    
+}
+content15   {
+    grid-area: content15;
+    background-image: url(img/15.jpg);
+    background-size: cover;
+    border-radius: 20px;    
+}
+content16   {
+    grid-area: content16;
+    background-image: url(img/16.jpg);
+    background-size: cover;
+    border-radius: 20px;    
+}
+content17   {
+    grid-area: content17;
+    background-image: url(img/17.jpg);
+    background-size: cover;
+    border-radius: 20px;    
+}
+content18   {
+    grid-area: content18;
+    background-image: url(img/18.jpg);
+    background-size: cover;
+    border-radius: 20px;    
+}
+content19   {
+    grid-area: content19;
+    background-image: url(img/19.jpg);
+    background-size: cover;
+    border-radius: 20px;    
+}
+content20   {
+    grid-area: content20;
+    background-image: url(img/20.jpg);
+    background-size: cover;
+    border-radius: 20px;    
+}
+content21   {
+    grid-area: content21;
+    background-image: url(img/21.jpg);
+    background-size: cover;
+    border-radius: 20px;    
+}
+content22   {
+    grid-area: content22;
+    background-image: url(img/22.jpg);
+    background-size: cover;
+    border-radius: 20px;    
+}
+content23   {
+    grid-area: content23;
+    background-image: url(img/23.jpg);
+    background-size: cover;
+    border-radius: 20px;    
+}
+content24   {
+    grid-area: content24;
+    background-image: url(img/24.jpg);
+    background-size: cover;
+    border-radius: 20px;    
+}
+.letter {
+    margin: auto;
+    margin-top: 200px;
+    text-align: center;
+    padding-top: 200px;
+    width: 100%;
+    height: 1100px;
+    background-size: cover;
+    background-image: url(../img/bg.png) ;
+    background-position: center;
+}
+.letter p   {
+    font-family: 'Moon Dance', cursive;
+    font-size: 30px;
+    opacity: 70%;
+}
+.letter2 {
+    margin: auto;
+    text-align: center;
+    margin-top: 500px;
+    background-color: rgb(235, 235, 235);
+    padding: 300px 0px 300px 0px;
+}
+.letter2 h2, .letter2 p  {
+    font-family:  'Josefin Sans', sans-serif;
+}
+.written    {
+    width: 700px;
+    text-align: center;
+    margin: auto;
+    margin-top: 1500px;
+}
+.written img    {
+    width: 300px;
+    border-radius: 20px;
+}
+.button {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    margin-top: 50px;
+    padding-bottom: 40px;
+}
+.button-73 {
+    appearance: none;
+    background-color: #f777e1;
+    border-radius: 40em;
+    border-style: none;
+    box-shadow: #f35050 0 -12px 6px inset;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    margin: auto;
+    display: inline-block;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    letter-spacing: -.24px;
+    margin: 0;
+    outline: none;
+    padding: 1rem 1.3rem;
+    quotes: auto;
+    text-align: center;
+    text-decoration: none;
+    transition: all .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button-73:hover {
+    background-color: #FFC229;
+    box-shadow: #FF6314 0 -6px 8px inset;
+    transform: scale(1.125);
+  }
+  
+  .button-73:active {
+    transform: scale(1.025);
+  }
+  
+  @media (min-width: 768px) {
+    .button-73 {
+      font-size: 1.5rem;
+      padding: .75rem 2rem;
+    }
+  }
+    </style>
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=The+Nautigal&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Licorice&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="pembukaan">
+            <p>Haiii! Kamu tau ga? Aku berhasil menaklukan hati seorang perempuan yang sempurna.</p> 
+            <p>I feel flat. But when she come, all of the vibes turned more colorful.</p>
+            <p style="margin-top: 50px;">She's not perfect. But she's perfect!</p>
+        </div>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#0099ff" fill-opacity="2" d="M0,32L60,58.7C120,85,240,139,360,154.7C480,171,600,149,720,128C840,107,960,85,1080,80C1200,75,1320,85,1380,90.7L1440,96L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path>
+          </svg>
+          
+          
+        <div class="int">
+            <h1>She is pretty</h1>
+            <h1 class="ciri">She's an innocent girl
+            </h1>
+            <h1 class="ciri">She's always smile</h1>
+            <h1 class="ciri">She is cute</h1>
+            <h1 class="ciri">She always appreciate me</h1>
+            <h1 class="ciri">Don't ask her "Are you diligent?"</h1>
+            <h1 class="ciri">Ms Independent</h1>
+            <h1 class="ciri">Always care about me</h1>
+            <h1 class="ciri">We have alot of same thing</h1>
+            <h1 class="ciri">He can make me express everything</h1>
+            <h1 class="ciri">She's my type, always!</h1>
+            <h1 class="ciri">She is always scared</h1>
+            <h1 class="ciri">She is always be there</h1>     
+            <h1 class="ciri">I LOVE Her</h1>
+            <h1 class="ciri last">And she will only be mine.</h1>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0099ff" fill-opacity="1" d="M0,192L48,170.7C96,149,192,107,288,85.3C384,64,480,64,576,74.7C672,85,768,107,864,128C960,149,1056,171,1152,165.3C1248,160,1344,128,1392,112L1440,96L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+
+
+        <div class="introduce">
+            <h1>Let me introduce you</h1>
+            <img src="img/ipeh.jpg" class="ipeh">
+        </div>
+        <div class="search">
+            <img src="img/search.png" alt="">
+        </div>
+
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#f3f4f5" fill-opacity="1" d="M0,224L288,128L576,192L864,256L1152,128L1440,128L1440,320L1152,320L864,320L576,320L288,320L0,320Z"></path></svg>
+        <div class="jk">
+            <h1>Nah, just kidding</h1>
+            <p class="sweetie">I LOVE your smile sweetie <3     </p> 
+            <h1 class="smile">:)</h1>
+            <p class="here">Here it is a beautiful angel who win my heart.</p>
+        </div>
+        <svg style="margin-bottom: 200px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#f3f4f5" fill-opacity="1" d="M0,192L720,64L1440,256L1440,0L720,0L0,0Z"></path></svg>
+    
+        <div class="pic">
+            <div class="icon">
+                <img src="https://img.icons8.com/nolan/64/filled-like.png"/>
+            </div>
+            <div class="grid">
+                <content1 class="content">
+                    <div class="black">
+                        <p>First Pic</p>
+                    </div>
+                </content1>
+
+                <content2 class="content">
+                    <div class="black">
+                        <p>Masha Allah</p>
+                    </div>
+                </content2>
+
+                <content3 class="content">
+                    <div class="black">
+                        <p>Rumah Sopo</p>
+                    </div>
+                </content3>
+
+                <content4 class="content">
+                    <div class="black">
+                        <p>Mochiii</p>
+                    </div>
+                </content4>
+
+                <content5 class="content">
+                    <div class="black">
+                        <p>Tantee</p>
+                    </div>
+                </content5>
+
+                <content6 class="content">
+                    <div class="black">
+                        <p>Ya gilaa!</p>
+                    </div>
+                </content6>
+
+                <content7 class="content">
+                    <div class="black">
+                        <p>Oh My ...</p>
+                    </div>
+                </content7>
+
+                <content8 class="content">
+                    <div class="black">
+                        <p>Pulangg</p>
+                    </div>
+                </content8>
+
+                <content9 class="content">
+                    <div class="black">
+                        <p>Full Memo</p>
+                    </div>
+                </content9>
+
+                <content10 class="content">
+                    <div class="black">
+                        <p>Kaget Gua Asli</p>
+                    </div>
+                </content10>
+
+                <content11 class="content">
+                    <div class="black">
+                        <p>Fav Day</p>
+                    </div>
+                </content11>
+
+                <content12 class="content">
+                    <div class="black">
+                        <p>Belajar</p>
+                    </div>
+                </content12>
+
+                <content13 class="content">
+                    <div class="black">
+                        <p>Ngantuk</p>
+                    </div>
+                </content13>
+
+                <content14 class="content">
+                    <div class="black">
+                        <p>Astaga Aurat</p>
+                    </div>
+                </content14>
+
+                <content15 class="content">
+                    <div class="black">
+                        <p>Rabu Gajelas</p>
+                    </div>
+                </content15>
+
+                <content16 class="content">
+                    <div class="black">
+                        <p>Hai</p>
+                    </div>
+                </content16>
+
+                <content17 class="content">
+                    <div class="black">
+                        <p>Sotonggg</p>
+                    </div>
+                </content17>
+
+                <content18 class="content">
+                    <div class="black">
+                        <p>Mwahh<3</p>
+                    </div>
+                </content18>
+
+                <content19 class="content">
+                    <div class="black">
+                        <p>"Madep Sini"</p>
+                    </div>
+                </content19>
+
+                <content20 class="content">
+                    <div class="black">
+                        <p>Looks Different</p>
+                    </div>
+                </content20>
+
+                <content21 class="content">
+                    <div class="black">
+                        <p>Mleee</p>
+                    </div>
+                </content21>
+
+                <content22 class="content">
+                    <div class="black">
+                        <p>Capek Juga</p>
+                    </div>
+                </content22>
+
+                <content23 class="content">
+                    <div class="black">
+                        <p>"Aku Ngambek"</p>
+                    </div>
+                </content23>
+
+                <content24 class="content">
+                    <div class="black">
+                        <p>Cheeseee</p>
+                    </div>
+                </content24>
+            </div>
+            <p style="text-align: center; font-family: 'Josefin Sans', sans-serif ; margin-top: 20px;">Foto kamu banyak aku temuin. Tapi itu pasaran. Aku mau yang spesial!</p>
+            <div class="letter">
+                <p>
+                    Kamu tau? Sebelumnya, aku pernah punya tekad untuk gak pacaran sampe aku nikah nanti!
+                </p>
+                <p>
+                    Sampai akhirnya aku tahu fakta tentang kamu yang langsung buat iman aku rontok.
+                </p>
+                <p>
+                    Pas itu aku kayak "Damn! What kind of girl she is?" 
+                </p>
+                <p>
+                    Kamu bisa tanya temen aku gimana reaksi aku ketika tau itu!
+                </p>
+                <p>
+                    Setelah itu, rasanya pengen aja incer ini cewe. Kayak, "dia doang yang nungguin gua se lama ini kayaknya!"
+                </p>
+                <p>
+                    Ya mungkin bahasanya juga bukan nungguin. Tapi, "Kan lo ketemu banyak cowok! Kenapa harus gua lagi?"
+                </p>
+                <p>
+                    Itu yang bikin aku yakin sama kamu.
+                </p>
+                
+                <div class="letter2">
+                    <h2>Wanna Know A Fact?</h2>
+                    <p style="margin-top: 20px;">
+                        I want you too know. Kehadiran kamu bawa dampak positif buat aku. 
+                    </p>
+                    <p>
+                        Dan aku juga berharap sebaliknya.
+                    </p>
+                    <p>
+                        Kalau kesalahanku diluar batas, tegur aku!
+                    </p>
+                    <p style="margin-top: 20px;">
+                        I can't write long poems like you.
+                    </p>
+                    <p>
+                        Cause I always call of those words with "I Love You".
+                    </p>
+                    <p style="margin-top: 500px; font-size: 15px;">
+                        Ohiya! Kalau ketilang jangan bilang "Pak mau duit ga? No!"
+                    </p>
+                    <p style="font-size: 15px;">
+                        Yang bener itu, "Pak damai aja ya pak!" Yes!
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <!-- Penutup -->
+        <div class="written">
+            <p style="    font-family:  'Josefin Sans', sans-serif;
+            font-size: 25px;">Created by Yours</p>
+            <p style="font-size: 8px; font-family: Arial, Helvetica, sans-serif;">From 6:00 - 15:00. 9, Jan 2022</p>
+            <img src="img/penulis.png" alt="">
+        </div>
+
+        <div class="button">
+            <a href="https://drive.google.com/drive/u/0/folders/1B4wf7iJ4KbT-uf_V-YqapbEi8j-CU3Et"><button class="button-73" role="button">Miss Me?</button></a>
+        </div>
+    </div>
+    
+</body>
+</html>

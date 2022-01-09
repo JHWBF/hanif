@@ -1,0 +1,355 @@
+*   {
+    padding: 0;
+    margin: 0;
+}
+.pembukaan p    {
+    font-family: 'The Nautigal', cursive;
+    font-size: 30px;
+    font-weight: bold;
+    opacity: 70%;   
+}
+.int h1 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+.container  {
+    margin: auto;
+    margin-top: 160px;
+}
+.pembukaan  {
+    margin: auto;
+    text-align: center;
+    margin-bottom: 200px;
+    background-image: url(../img/paper.jpg);
+    padding: 100px;
+    width: 700px;
+    border-radius: 50px 0px 50px 0px;
+    box-shadow: 0px 5px 35px rgb(0, 0, 0, 50%);
+}
+.int    {
+    margin: auto;
+    background-color: #0099ff;
+    color: white;
+    text-align: center;
+    margin-top: -10px;
+}
+.int .ciri {
+    margin-top: 450px;
+}
+.last   {
+    padding-bottom: 150px;
+}
+.introduce  {
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+}
+.introduce h1   {
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgb(53, 53, 53);
+}
+.introduce .ipeh  {
+    margin-top: 500px;
+    margin-bottom: -50px;
+}
+.search {
+    margin: auto;
+    text-align: center;
+    margin-bottom: 200px;
+}
+.jk {
+    margin: auto;
+    text-align: center;
+    background-color: #f3f4f5;
+    margin-top: -10px;
+    padding-top: 100px;
+}
+.jk h1   {
+    font-family: 'Josefin Sans', sans-serif;
+    opacity: 80%;
+}
+.jk .sweetie  {
+    font-family: 'Licorice', cursive;
+    color: red;
+    font-size: 15px;
+    font-weight: bolder;
+    margin-left: 200px;
+}
+.jk .here   {
+    margin-top: 500px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.jk .smile  {
+    margin-top: 500px;
+}
+
+.grid   {
+    display: grid;
+    grid-template-areas: "content1 content2 content3 content4 content5 content6 content7 content8"
+                         "content9 content10 content11 content12 content13 content14 content15 content16"
+                         "content17 content18 content19 content20 content21 content22 content23 content24";
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.icon   {
+    transform: rotate(-20deg);
+    position: relative;
+    bottom: 160px;
+    z-index: 0;
+}
+.icon img   {
+    width: 150px;
+}
+.content    {
+    height: 166px;
+    margin: 2px;
+    z-index: 1;
+    box-shadow: 0px 1px 30px rgb(53, 53, 53, 50%);
+}
+.content p  {
+    text-align: center;
+    margin: auto;
+    line-height: 166px;
+    font-family: 'Roboto Mono', monospace;
+}
+.black  {
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    opacity: 0%;
+    width: 100%;
+    height: 100%;
+    transition-timing-function: ease;
+    transition-duration: 0.5s;
+}
+.black:hover {
+    color: white;
+    opacity: 70%;
+}
+content1   {
+    grid-area: content1;
+    background-image: url(../img/1.jpg);
+    background-size: cover;
+    border-radius: 20px;
+}
+content2   {
+    grid-area: content2;
+    background-image: url(../img/2.jpg);
+    background-size: cover;
+    border-radius: 20px;    
+}
+content3   {
+    grid-area: content3;
+    background-image: url(../img/3.jpg);
+    background-size: cover;
+    border-radius: 20px;    
+}
+content4   {
+    grid-area: content4;
+    background-image: url(../img/4.jpg);
+    background-size: cover;
+    border-radius: 20px;    
+}
+content5   {
+    grid-area: content5;
+    background-image: url(../img/5.jpg);
+    background-size: cover;
+    border-radius: 20px;    
+}
+content6   {
+    grid-area: content6;
+    background-image: url(../img/6.jpg);
+    background-size: cover;
+    border-radius: 20px;    
+}
+content7   {
+    grid-area: content7;
+    background-image: url(../img/7.jpg);
+    background-size: cover;
+    border-radius: 20px;    
+}
+content8   {
+    grid-area: content8;
+    background-image: url(../img/8.jpg);
+    background-size: cover;
+    border-radius: 20px;    
+}
+content9   {
+    grid-area: content9;
+    background-image: url(../img/9.jpg);
+    background-size: cover;
+    border-radius: 20px;    
+}
+content10   {
+    grid-area: content10;
+    background-image: url(../img/10.jpg);
+    background-size: cover;
+    border-radius: 20px;    
+}
+content11  {
+    grid-area: content11;
+    background-image: url(../img/11.jpg);
+    background-size: cover;
+    border-radius: 20px;    
+}
+content12   {
+    grid-area: content12;
+    background-image: url(../img/12.jpg);
+    background-size: cover;
+    border-radius: 20px;    
+}
+content13   {
+    grid-area: content13;
+    background-image: url(../img/13.jpg);
+    background-size: cover;
+    border-radius: 20px;    
+}
+content14   {
+    grid-area: content14;
+    background-image: url(../img/14.jpg);
+    background-size: cover;
+    border-radius: 20px;    
+}
+content15   {
+    grid-area: content15;
+    background-image: url(../img/15.jpg);
+    background-size: cover;
+    border-radius: 20px;    
+}
+content16   {
+    grid-area: content16;
+    background-image: url(../img/16.jpg);
+    background-size: cover;
+    border-radius: 20px;    
+}
+content17   {
+    grid-area: content17;
+    background-image: url(../img/17.jpg);
+    background-size: cover;
+    border-radius: 20px;    
+}
+content18   {
+    grid-area: content18;
+    background-image: url(../img/18.jpg);
+    background-size: cover;
+    border-radius: 20px;    
+}
+content19   {
+    grid-area: content19;
+    background-image: url(../img/19.jpg);
+    background-size: cover;
+    border-radius: 20px;    
+}
+content20   {
+    grid-area: content20;
+    background-image: url(../img/20.jpg);
+    background-size: cover;
+    border-radius: 20px;    
+}
+content21   {
+    grid-area: content21;
+    background-image: url(../img/21.jpg);
+    background-size: cover;
+    border-radius: 20px;    
+}
+content22   {
+    grid-area: content22;
+    background-image: url(../img/22.jpg);
+    background-size: cover;
+    border-radius: 20px;    
+}
+content23   {
+    grid-area: content23;
+    background-image: url(../img/23.jpg);
+    background-size: cover;
+    border-radius: 20px;    
+}
+content24   {
+    grid-area: content24;
+    background-image: url(../img/24.jpg);
+    background-size: cover;
+    border-radius: 20px;    
+}
+.letter {
+    margin: auto;
+    margin-top: 200px;
+    text-align: center;
+    padding-top: 200px;
+    width: 100%;
+    height: 1100px;
+    background-size: cover;
+    background-image: url(../img/bg.png) ;
+    background-position: center;
+}
+.letter p   {
+    font-family: 'Moon Dance', cursive;
+    font-size: 30px;
+    opacity: 70%;
+}
+.letter2 {
+    margin: auto;
+    text-align: center;
+    margin-top: 500px;
+}
+.letter2 h2, .letter2 p  {
+    font-family:  'Josefin Sans', sans-serif;
+}
+.written    {
+    width: 700px;
+    text-align: center;
+    margin: auto;
+    margin-top: 1000px;
+}
+.written img    {
+    width: 300px;
+    border-radius: 20px;
+}
+.button {
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    margin-top: 50px;
+    padding-bottom: 40px;
+}
+.button-73 {
+    appearance: none;
+    background-color: #f777e1;
+    border-radius: 40em;
+    border-style: none;
+    box-shadow: #f35050 0 -12px 6px inset;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    margin: auto;
+    display: inline-block;
+    font-family: -apple-system,sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    letter-spacing: -.24px;
+    margin: 0;
+    outline: none;
+    padding: 1rem 1.3rem;
+    quotes: auto;
+    text-align: center;
+    text-decoration: none;
+    transition: all .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button-73:hover {
+    background-color: #FFC229;
+    box-shadow: #FF6314 0 -6px 8px inset;
+    transform: scale(1.125);
+  }
+  
+  .button-73:active {
+    transform: scale(1.025);
+  }
+  
+  @media (min-width: 768px) {
+    .button-73 {
+      font-size: 1.5rem;
+      padding: .75rem 2rem;
+    }
+  }
