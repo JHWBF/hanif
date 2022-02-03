@@ -6,366 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>My Fav Girl</title>
-    <!-- <link rel="stylesheet" href="css/style.css"> -->
-    <style>
-        *   {
-    padding: 0;
-    margin: 0;
-}
-.pembukaan p    {
-    font-family: 'The Nautigal', cursive;
-    font-size: 30px;
-    font-weight: bold;
-    opacity: 70%;   
-}
-.int h1 {
-    font-family: 'Josefin Sans', sans-serif;
-}
-.container  {
-    margin: auto;
-    margin-top: 160px;
-}
-.pembukaan  {
-    margin: auto;
-    text-align: center;
-    margin-bottom: 200px;
-    background-image: url(img/paper.jpg);
-    padding: 100px;
-    width: 700px;
-    border-radius: 50px 0px 50px 0px;
-    box-shadow: 0px 5px 35px rgb(0, 0, 0, 50%);
-}
-.int    {
-    margin: auto;
-    background-color: #0099ff;
-    color: white;
-    text-align: center;
-    margin-top: -10px;
-}
-.int .ciri {
-    margin-top: 450px;
-}
-.last   {
-    padding-bottom: 150px;
-}
-.introduce  {
-    margin: auto;
-    text-align: center;
-    margin-top: 50px;
-}
-.introduce h1   {
-    font-family: 'Josefin Sans', sans-serif;
-    color: rgb(53, 53, 53);
-}
-.introduce .ipeh  {
-    margin-top: 500px;
-    margin-bottom: -50px;
-}
-.search {
-    margin: auto;
-    text-align: center;
-    margin-bottom: 200px;
-}
-.jk {
-    margin: auto;
-    text-align: center;
-    background-color: #f3f4f5;
-    margin-top: -10px;
-    padding-top: 100px;
-}
-.jk h1   {
-    font-family: 'Josefin Sans', sans-serif;
-    opacity: 80%;
-}
-.jk .sweetie  {
-    font-family: 'Licorice', cursive;
-    color: red;
-    font-size: 15px;
-    font-weight: bolder;
-    margin-left: 200px;
-}
-.jk .here   {
-    margin-top: 500px;
-    font-family: 'Josefin Sans', sans-serif;
-}
-.jk .smile  {
-    margin-top: 500px;
-}
-
-.grid   {
-    display: grid;
-    grid-template-areas: "content1 content2 content3 content4 content5 content6 content7 content8"
-                         "content9 content10 content11 content12 content13 content14 content15 content16"
-                         "content17 content18 content19 content20 content21 content22 content23 content24";
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-}
-.icon   {
-    transform: rotate(-20deg);
-    position: relative;
-    bottom: 160px;
-    z-index: 0;
-}
-.icon img   {
-    width: 150px;
-}
-.content    {
-    height: 166px;
-    margin: 2px;
-    z-index: 1;
-    box-shadow: 0px 1px 30px rgb(53, 53, 53, 50%);
-}
-.content p  {
-    text-align: center;
-    margin: auto;
-    line-height: 166px;
-    font-family: 'Roboto Mono', monospace;
-}
-.black  {
-    background-color: black;
-    color: white;
-    border-radius: 20px;
-    opacity: 0%;
-    width: 100%;
-    height: 100%;
-    transition-timing-function: ease;
-    transition-duration: 0.5s;
-}
-.black:hover {
-    color: white;
-    opacity: 70%;
-}
-content1   {
-    grid-area: content1;
-    background-image: url(img/1.jpg);
-    background-size: cover;
-    border-radius: 20px;
-}
-content2   {
-    grid-area: content2;
-    background-image: url(img/2.jpg);
-    background-size: cover;
-    border-radius: 20px;    
-}
-content3   {
-    grid-area: content3;
-    background-image: url(img/3.jpg);
-    background-size: cover;
-    border-radius: 20px;    
-}
-content4   {
-    grid-area: content4;
-    background-image: url(img/4.jpg);
-    background-size: cover;
-    border-radius: 20px;    
-}
-content5   {
-    grid-area: content5;
-    background-image: url(img/5.jpg);
-    background-size: cover;
-    border-radius: 20px;    
-}
-content6   {
-    grid-area: content6;
-    background-image: url(img/6.jpg);
-    background-size: cover;
-    border-radius: 20px;    
-}
-content7   {
-    grid-area: content7;
-    background-image: url(img/7.jpg);
-    background-size: cover;
-    border-radius: 20px;    
-}
-content8   {
-    grid-area: content8;
-    background-image: url(img/8.jpg);
-    background-size: cover;
-    border-radius: 20px;    
-}
-content9   {
-    grid-area: content9;
-    background-image: url(img/9.jpg);
-    background-size: cover;
-    border-radius: 20px;    
-}
-content10   {
-    grid-area: content10;
-    background-image: url(img/10.jpg);
-    background-size: cover;
-    border-radius: 20px;    
-}
-content11  {
-    grid-area: content11;
-    background-image: url(img/11.jpg);
-    background-size: cover;
-    border-radius: 20px;    
-}
-content12   {
-    grid-area: content12;
-    background-image: url(img/12.jpg);
-    background-size: cover;
-    border-radius: 20px;    
-}
-content13   {
-    grid-area: content13;
-    background-image: url(img/13.jpg);
-    background-size: cover;
-    border-radius: 20px;    
-}
-content14   {
-    grid-area: content14;
-    background-image: url(img/14.jpg);
-    background-size: cover;
-    border-radius: 20px;    
-}
-content15   {
-    grid-area: content15;
-    background-image: url(img/15.jpg);
-    background-size: cover;
-    border-radius: 20px;    
-}
-content16   {
-    grid-area: content16;
-    background-image: url(img/16.jpg);
-    background-size: cover;
-    border-radius: 20px;    
-}
-content17   {
-    grid-area: content17;
-    background-image: url(img/17.jpg);
-    background-size: cover;
-    border-radius: 20px;    
-}
-content18   {
-    grid-area: content18;
-    background-image: url(img/18.jpg);
-    background-size: cover;
-    border-radius: 20px;    
-}
-content19   {
-    grid-area: content19;
-    background-image: url(img/19.jpg);
-    background-size: cover;
-    border-radius: 20px;    
-}
-content20   {
-    grid-area: content20;
-    background-image: url(img/20.jpg);
-    background-size: cover;
-    border-radius: 20px;    
-}
-content21   {
-    grid-area: content21;
-    background-image: url(img/21.jpg);
-    background-size: cover;
-    border-radius: 20px;    
-}
-content22   {
-    grid-area: content22;
-    background-image: url(img/22.jpg);
-    background-size: cover;
-    border-radius: 20px;    
-}
-content23   {
-    grid-area: content23;
-    background-image: url(img/23.jpg);
-    background-size: cover;
-    border-radius: 20px;    
-}
-content24   {
-    grid-area: content24;
-    background-image: url(img/24.jpg);
-    background-size: cover;
-    border-radius: 20px;    
-}
-.letter {
-    margin: auto;
-    margin-top: 200px;
-    text-align: center;
-    padding-top: 200px;
-    width: 100%;
-    height: 1100px;
-    background-size: cover;
-    background-image: url(../img/bg.png) ;
-    background-position: center;
-}
-.letter p   {
-    font-family: 'Moon Dance', cursive;
-    font-size: 30px;
-    opacity: 70%;
-}
-.letter2 {
-    margin: auto;
-    text-align: center;
-    margin-top: 500px;
-    background-color: rgb(235, 235, 235);
-    padding: 300px 0px 300px 0px;
-}
-.letter2 h2, .letter2 p  {
-    font-family:  'Josefin Sans', sans-serif;
-}
-.written    {
-    width: 700px;
-    text-align: center;
-    margin: auto;
-    margin-top: 1500px;
-}
-.written img    {
-    width: 300px;
-    border-radius: 20px;
-}
-.button {
-    margin: auto;
-    width: 50%;
-    text-align: center;
-    margin-top: 50px;
-    padding-bottom: 40px;
-}
-.button-73 {
-    appearance: none;
-    background-color: #f777e1;
-    border-radius: 40em;
-    border-style: none;
-    box-shadow: #f35050 0 -12px 6px inset;
-    box-sizing: border-box;
-    color: #ffffff;
-    cursor: pointer;
-    margin: auto;
-    display: inline-block;
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 1.2rem;
-    font-weight: 700;
-    letter-spacing: -.24px;
-    margin: 0;
-    outline: none;
-    padding: 1rem 1.3rem;
-    quotes: auto;
-    text-align: center;
-    text-decoration: none;
-    transition: all .15s;
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
-  }
-  
-  .button-73:hover {
-    background-color: #FFC229;
-    box-shadow: #FF6314 0 -6px 8px inset;
-    transform: scale(1.125);
-  }
-  
-  .button-73:active {
-    transform: scale(1.025);
-  }
-  
-  @media (min-width: 768px) {
-    .button-73 {
-      font-size: 1.5rem;
-      padding: .75rem 2rem;
-    }
-  }
-    </style>
+    <link rel="stylesheet" href="css/style.css">
 
     <!-- Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -391,12 +32,14 @@ content24   {
 <body>
 
     <div class="container">
-
-        <div class="pembukaan">
-            <p>Haiii! Kamu tau ga? Aku berhasil menaklukan hati seorang perempuan yang sempurna.</p> 
-            <p>I feel flat. But when she come, all of the vibes turned more colorful.</p>
-            <p style="margin-top: 50px;">She's not perfect. But she's perfect!</p>
+        <div class="bg1">
+             <div class="pembukaan">
+                <p>Haiii! Kalian tau? Aku berhasil menaklukan hati seorang perempuan yang sempurna.</p> 
+                <p>I feel flat. But when she come, all of the vibes turned more colorful.</p>
+                <p style="margin-top: 50px;">She's not perfect. But she's perfect!</p>
+             </div>
         </div>
+       
         
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
             <path fill="#0099ff" fill-opacity="2" d="M0,32L60,58.7C120,85,240,139,360,154.7C480,171,600,149,720,128C840,107,960,85,1080,80C1200,75,1320,85,1380,90.7L1440,96L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path>
@@ -408,15 +51,14 @@ content24   {
             <h1 class="ciri">She's an innocent girl
             </h1>
             <h1 class="ciri">She's always smile</h1>
+            <h1 class="ciri">She is a hero</h1>
             <h1 class="ciri">She is cute</h1>
             <h1 class="ciri">She always appreciate me</h1>
             <h1 class="ciri">Don't ask her "Are you diligent?"</h1>
             <h1 class="ciri">Ms Independent</h1>
             <h1 class="ciri">Always care about me</h1>
             <h1 class="ciri">We have alot of same thing</h1>
-            <h1 class="ciri">He can make me express everything</h1>
-            <h1 class="ciri">She's my type, always!</h1>
-            <h1 class="ciri">She is always scared</h1>
+            <h1 class="ciri">She can make me express everything</h1>            <h1 class="ciri">She is always scared</h1>
             <h1 class="ciri">She is always be there</h1>     
             <h1 class="ciri">I LOVE Her</h1>
             <h1 class="ciri last">And she will only be mine.</h1>
@@ -432,19 +74,38 @@ content24   {
             <img src="img/search.png" alt="">
         </div>
 
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#f3f4f5" fill-opacity="1" d="M0,224L288,128L576,192L864,256L1152,128L1440,128L1440,320L1152,320L864,320L576,320L288,320L0,320Z"></path></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#acacac" fill-opacity="1" d="M0,224L288,128L576,192L864,256L1152,128L1440,128L1440,320L1152,320L864,320L576,320L288,320L0,320Z"></path></svg>
         <div class="jk">
             <h1>Nah, just kidding</h1>
             <p class="sweetie">I LOVE your smile sweetie <3     </p> 
-            <h1 class="smile">:)</h1>
+            <div class="waviy">
+                <span style="--i:1">:</span>
+                <span style="--i:2">)</span>
+                <span style="--i:3">)</span>
+                <span style="--i:4">)</span>
+            </div>
             <p class="here">Here it is a beautiful angel who win my heart.</p>
         </div>
-        <svg style="margin-bottom: 200px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#f3f4f5" fill-opacity="1" d="M0,192L720,64L1440,256L1440,0L720,0L0,0Z"></path></svg>
+        <svg style="margin-bottom: -300px; margin-top: -10px;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#acacac" fill-opacity="1" d="M0,192L720,64L1440,256L1440,0L720,0L0,0Z"></path></svg>
     
         <div class="pic">
+            <div class="heart"></div>
+            <p class="heart2" style="font-family: 'Josefin Sans', sans-serif ; color: white; text-align: center; margin-top: 30px; margin-bottom: 500px; font-size: 10px;">My Heart Can't Take This Damage!</p>
+            <div class="textgallery">
+                <h2 class="title">
+                    <span class="title-word title-word-1">G</span>
+                    <span class="title-word title-word-2">A</span>
+                    <span class="title-word title-word-3">L</span>
+                    <span class="title-word title-word-4">L</span>
+                    <span class="title-word title-word-5">E</span>
+                    <span class="title-word title-word-6">R</span>
+                    <span class="title-word title-word-7">Y</span>
+                  </h2>
+            </div>
             <div class="icon">
                 <img src="https://img.icons8.com/nolan/64/filled-like.png"/>
             </div>
+            
             <div class="grid">
                 <content1 class="content">
                     <div class="black">
@@ -460,7 +121,7 @@ content24   {
 
                 <content3 class="content">
                     <div class="black">
-                        <p>Rumah Sopo</p>
+                        <p>Abis Nangis</p>
                     </div>
                 </content3>
 
@@ -502,7 +163,7 @@ content24   {
 
                 <content10 class="content">
                     <div class="black">
-                        <p>Kaget Gua Asli</p>
+                        <p>Waaa</p>
                     </div>
                 </content10>
 
@@ -526,7 +187,7 @@ content24   {
 
                 <content14 class="content">
                     <div class="black">
-                        <p>Astaga Aurat</p>
+                        <p>WHAHAHA</p>
                     </div>
                 </content14>
 
@@ -562,7 +223,7 @@ content24   {
 
                 <content20 class="content">
                     <div class="black">
-                        <p>Looks Different</p>
+                        <p>IIIIII</p>
                     </div>
                 </content20>
 
@@ -586,36 +247,356 @@ content24   {
 
                 <content24 class="content">
                     <div class="black">
-                        <p>Cheeseee</p>
+                        <p>Rabuu</p>
                     </div>
                 </content24>
+
+                <content25 class="content">
+                    <div class="black">
+                        <p>Looks Different</p>
+                    </div>
+                </content25>
+
+                <content26 class="content">
+                    <div class="black">
+                        <p>Smiley</p>
+                    </div>
+                </content26>
+
+                <content27 class="content">
+                    <div class="black">
+                        <p>BTS</p>
+                    </div>
+                </content27>
+
+                <content28 class="content">
+                    <div class="black">
+                        <p>Kelilipan</p>
+                    </div>
+                </content28>
+
+                <content29 class="content">
+                    <div class="black">
+                        <p>Terpaksa</p>
+                    </div>
+                </content29>
+
+                <content30 class="content">
+                    <div class="black">
+                        <p>Disuruh Diki</p>
+                    </div>
+                </content30>
+
+                <content31 class="content">
+                    <div class="black">
+                        <p>Bosen</p>
+                    </div>
+                </content31>
+
+                <content32 class="content">
+                    <div class="black">
+                        <p>Yes dapet!</p>
+                    </div>
+                </content32>
+
+                <content33 class="content">
+                    <div class="black">
+                        <p>Ngopi Yuk?</p>
+                    </div>
+                </content33>
+
+                <content34 class="content">
+                    <div class="black">
+                        <p>"Pak liat kamera"</p>
+                    </div>
+                </content34>
+
+                <content35 class="content">
+                    <div class="black">
+                        <p>Wleee</p>
+                    </div>
+                </content35>
+
+                <content36 class="content">
+                    <div class="black">
+                        <p>Kamu serius?</p>
+                    </div>
+                </content36>
+
+                <content37 class="content">
+                    <div class="black">
+                        <p>Lagi akur</p>
+                    </div>
+                </content37>
+
+                <content38 class="content">
+                    <div class="black">
+                        <p>Rumah Nei</p>
+                    </div>
+                </content38>
+
+                <content39 class="content">
+                    <div class="black">
+                        <p>Nescafe 4 Life</p>
+                    </div>
+                </content39>
+
+                <content40 class="content">
+                    <div class="black">
+                        <p>Tak tembak kamu</p>
+                    </div>
+                </content40>
+
+                <content41 class="content">
+                    <div class="black">
+                        <p>Cahaya Ilahi</p>
+                    </div>
+                </content41>
+
+                <content42 class="content">
+                    <div class="black">
+                        <p>Makaann</p>
+                    </div>
+                </content42>
+
+                <content43 class="content">
+                    <div class="black">
+                        <p>Half Of Love <p>
+                    </div>
+                </content43>
+
+                <content44 class="content">
+                    <div class="black">
+                        <p>Fav Pose</p>
+                    </div>
+                </content44>
+
+                <content45 class="content">
+                    <div class="black">
+                        <p>Disponsori ...</p>
+                    </div>
+                </content45>
+
+                <content46 class="content">
+                    <div class="black">
+                        <p>Cibol?</p>
+                    </div>
+                </content46>
+
+                <content47 class="content">
+                    <div class="black">
+                        <p>Ciputt</p>
+                    </div>
+                </content47>
+
+                <content48 class="content">
+                    <div class="black">
+                        <p>Aku capek mas</p>
+                    </div>
+                </content48>
+
+                <content49 class="content">
+                    <div class="black">
+                        <p>Mandee</p>
+                    </div>
+                </content49>
+
+                <content50 class="content">
+                    <div class="black">
+                        <p>Malamm</p>
+                    </div>
+                </content50>
+
+                <content51 class="content">
+                    <div class="black">
+                        <p>Manisnya anak ini</p>
+                    </div>
+                </content51>
+
+                <content52 class="content">
+                    <div class="black">
+                        <p>Emot kucing</p>
+                    </div>
+                </content52>
+
+                <content53 class="content">
+                    <div class="black">
+                        <p>Afah iyh?</p>
+                    </div>
+                </content53>
+
+                <content54 class="content">
+                    <div class="black">
+                        <p>Parah jarinya</p>
+                    </div>
+                </content54>
+
+                <content55 class="content">
+                    <div class="black">
+                        <p>Mata Genit</p>
+                    </div>
+                </content55>
+
+                <content56 class="content">
+                    <div class="black">
+                        <p>Balon Baik</p>
+                    </div>
+                </content56>
+
+                <content57 class="content">
+                    <div class="black">
+                        <p>Bocil Rese</p>
+                    </div>
+                </content57>
+
+                <content58 class="content">
+                    <div class="black">
+                        <p>Mama Lala</p>
+                    </div>
+                </content58>
+
+                <content59 class="content">
+                    <div class="black">
+                        <p>Okee Dee</p>
+                    </div>
+                </content59>
+
+                <content60 class="content">
+                    <div class="black">
+                        <p>Hai ganteng</p>
+                    </div>
+                </content60>
+
+                <content61 class="content">
+                    <div class="black">
+                        <p>Wlooo</p>
+                    </div>
+                </content61>
+
+                <content62 class="content">
+                    <div class="black">
+                        <p>Ipin</p>
+                    </div>
+                </content62>
+
+                <content63 class="content">
+                    <div class="black">
+                        <p>Tidur</p>
+                    </div>
+                </content63>
+
+                <content64 class="content">
+                    <div class="black">
+                        <p>Nunggu Moti</p>
+                    </div>
+                </content64>
+
+                <content65 class="content">
+                    <div class="black">
+                        <p>Maluu</p>
+                    </div>
+                </content65>
+
+                <content66 class="content">
+                    <div class="black">
+                        <p>Apasih dia?</p>
+                    </div>
+                </content66>
+
+                <content67 class="content">
+                    <div class="black">
+                        <p>Daddyy</p>
+                    </div>
+                </content67>
+
+                <content68 class="content">
+                    <div class="black">
+                        <p>:)</p>
+                    </div>
+                </content68>
+
+                <content69 class="content">
+                    <div class="black">
+                        <p>Mochiii</p>
+                    </div>
+                </content69>
+
+                <content70 class="content">
+                    <div class="black">
+                        <p>Anak Rajin</p>
+                    </div>
+                </content70>
+
+                <content71 class="content">
+                    <div class="black">
+                        <p>Manyun</p>
+                    </div>
+                </content71>
+
+                <content72 class="content">
+                    <div class="black">
+                        <p>Terbang</p>
+                    </div>
+                </content72>
+
             </div>
-            <p style="text-align: center; font-family: 'Josefin Sans', sans-serif ; margin-top: 20px;">Foto kamu banyak aku temuin. Tapi itu pasaran. Aku mau yang spesial!</p>
+            <svg class="textblur" viewBox="0 0 150 20">
+                <defs>
+                  <filter id="blur">
+                    <feGaussianBlur stdDeviation="2" />
+                  </filter>
+              
+                  <linearGradient id="fadeToRight" x1="0%" x2="100%">
+                    <stop offset="0%" stop-color="white" />
+                    <stop offset="86%" stop-color="black" />
+                  </linearGradient>
+              
+                  <linearGradient id="fadeToLeft" x1="0%" x2="100%">
+                    <stop offset="0%" stop-color="black" />
+                    <stop offset="100%" stop-color="white" />
+                  </linearGradient>
+              
+                  <mask id="fadeToRightMask">
+                    <rect width="100%" height="100%" fill="url(#fadeToRight)" />
+                  </mask>
+              
+                  <mask id="fadeToLeftMask">
+                    <rect width="100%" height="100%" fill="url(#fadeToLeft)" />
+                  </mask>
+                </defs>
+              
+                <!-- <text> is only inside this <g> so we can duplicate it with <use> -->
+                <g mask="url(#fadeToRightMask)">
+                  <text dx="10" dy="10" id="text">All of these, are pic about Ms.J that i keep in my Gallery</text>
+                </g>
+                <use xlink:href="#text" filter="url(#blur)" mask="url(#fadeToLeftMask)" />
+              </svg>
+            <p style="color: black; text-align: center; font-family: 'Josefin Sans', sans-serif; margin-top: -50px; ">Foto kamu banyak aku temuin. Tapi itu pasaran. Aku mau yang spesial!</p>
             <div class="letter">
                 <p>
-                    Kamu tau? Sebelumnya, aku pernah punya tekad untuk gak pacaran sampe aku nikah nanti!
+                    Kamu tau? Sebelumnya, aku pernah punya tekad untuk gak pacaran!
                 </p>
                 <p>
                     Sampai akhirnya aku tahu fakta tentang kamu yang langsung buat iman aku rontok.
                 </p>
                 <p>
-                    Pas itu aku kayak "Damn! What kind of girl she is?" 
+                    Saat itu rasanya "Damn! What kind of girl she is?" 
                 </p>
                 <p>
-                    Kamu bisa tanya temen aku gimana reaksi aku ketika tau itu!
+                    You can ask my friends how I reacted when I heard about that fact!
                 </p>
                 <p>
-                    Setelah itu, rasanya pengen aja incer ini cewe. Kayak, "dia doang yang nungguin gua se lama ini kayaknya!"
+                    Setelah itu, rasanya pengen aja incer ini cewe. Karena, "dia doang yang nungguin gua se lama ini, maybe!"
                 </p>
                 <p>
-                    Ya mungkin bahasanya juga bukan nungguin. Tapi, "Kan lo ketemu banyak cowok! Kenapa harus gua lagi?"
+                    Mungkin bahasanya juga bukan nungguin. Tapi, "Kan lo ketemu banyak cowok! Kenapa harus gua lagi?"
                 </p>
                 <p>
                     Itu yang bikin aku yakin sama kamu.
                 </p>
                 
                 <div class="letter2">
-                    <h2>Wanna Know A Fact?</h2>
+                    <h2>Fact</h2>
                     <p style="margin-top: 20px;">
                         I want you too know. Kehadiran kamu bawa dampak positif buat aku. 
                     </p>
@@ -631,7 +612,37 @@ content24   {
                     <p>
                         Cause I always call of those words with "I Love You".
                     </p>
-                    <p style="margin-top: 500px; font-size: 15px;">
+                    <div class="couple">
+                        <div class="fotbar a">
+                            <div class="black1">
+                                <div class="hear"></div>
+                                <p style="font-family: 'Josefin Sans', sans-serif; font-size: 20px; margin-top: -30px; ">Lemes</p>
+                            </div>
+                        </div>
+
+                        <div class="fotbar b">
+                            <div class="black2">
+                                <div class="hear"></div>
+                                <p style="font-family: 'Josefin Sans', sans-serif; font-size: 20px; margin-top: 95px;">Blur</p>
+                            </div>
+                        </div>
+
+                        <div class="fotbar c">
+                            <div class="black3">
+                                <div class="hear"></div>
+                                <p style="font-family: 'Josefin Sans', sans-serif; font-size: 20px; margin-top: 95px; ">Couple <3 </p>
+                            </div>
+                        </div>
+
+                        <div class="fotbar d">
+                            <div class="black4">
+                                <div class="hear"></div>
+                                <p style="font-family: 'Josefin Sans', sans-serif; font-size: 20px; margin-top: -30px; ">Lov U</p>
+                            </div>
+                        </div>
+                    </div>
+                    <p style="font-family: 'Josefin Sans', sans-serif; font-size: 20px; margin-bottom: 500px; margin-top: -100px;" >Nanti, Kita Isi Bagian Ini Lagi!</p>
+                    <p style="margin-top: 100px; font-size: 15px;">
                         Ohiya! Kalau ketilang jangan bilang "Pak mau duit ga? No!"
                     </p>
                     <p style="font-size: 15px;">
